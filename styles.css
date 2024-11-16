@@ -1,3 +1,10 @@
+:root {
+    --ccna1-background-color: #e11d48;
+    --ccna2-background-color: #3C552D;
+    --ccna3-background-color: #347928;
+}
+
+
 *  {
     margin: 0px;
     padding: 0px;
@@ -17,16 +24,17 @@
 /*    link styeling section*/
 a:link {
     text-decoration: none;
+    color: white;
 }
 
 a:visited {
     text-decoration: none;
-    color: pink;
+    color: red;
 }
 
 a:hover {
     text-decoration: underline;
-    color: green;
+    color: blue;
 }
 
 /*    link style ends */
@@ -43,4 +51,19 @@ a:hover {
 }
  .ccna1 p, .ccna2 p, .ccna3 p {
     text-transform: uppercase;
+ }
+
+ .ccna1 {
+    background-color: var(--ccna1-background-color);
+    color: #fff;
+ }
+
+ .ccna2 {
+    background-color: var(--ccna2-background-color);
+    color: #fff;
+ }
+
+ .ccna3 {
+    background-color: var(--ccna3-background-color);
+    color: #fff;
  }
